@@ -24,7 +24,7 @@ The private key should match the public key that you specified when creating the
 
 ### Examples
 
-Presuming that you have created a Dev Endpoint and stored the private key used to create it in a file called key.pem under the keys subdirectory of your home directory, 
+Presuming that you have created a Dev Endpoint and stored the private key used to create it in a file called `key.pem` under the keys subdirectory of your home directory, 
 and you have checked the endpoint properties to find that the endpoint has a public address of `ec2-52-18-45-15.eu-west-1.compute.amazonaws.com`
 
 On Unix run:
@@ -40,7 +40,7 @@ Note that a key file in PuTTY format (.ppk) will not work.
 
 then go to the zeppelin UI at: (http://localhost:8080)
 
-#### Troubleshooting
+### Troubleshooting
 
-If you have issues with the container then make sure that you have not added the -d argument, this will allow you to see if any error messages are being generated.
+If you have issues with the container then make sure that you have not added the `-d` argument, this will allow you to see if any error messages are being generated.
 
